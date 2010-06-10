@@ -11,6 +11,7 @@ setup(
     name="mysqlfuncs",
     description="C functions to aid in implementing the mysql wire protocol",
     version="1.0",
+    license="bsd",
     ext_modules=[Extension(
         'mysqlfuncs',
         ['mysqlfuncsmodule.c'],
@@ -19,7 +20,7 @@ setup(
     classifiers = [
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
-        #"License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: BSD License",
         "Natural Language :: English",
         "Operating System :: Unix",
         "Programming Language :: C",
