@@ -12,6 +12,8 @@ setup(
     description="C functions to aid in implementing the mysql wire protocol",
     version="1.0",
     license="bsd",
+    author="Libor Michalek",
+    author_email="libor@pobox.com",
     ext_modules=[Extension(
         'mysqlfuncs',
         ['mysqlfuncsmodule.c'],
